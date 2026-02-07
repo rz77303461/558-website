@@ -1,0 +1,33 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alloyGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b83c47;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="metalShine2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#alloyGrad2)" rx="20"/>
+  <rect x="0" y="0" width="400" height="400" fill="url(#metalShine2)" rx="20"/>
+  
+  <!-- 金属圆盘形状 -->
+  <circle cx="200" cy="200" r="80" fill="#D4AF37" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="200" cy="200" r="75" fill="#FFD700" stroke="url(#metalShine2)" stroke-width="2"/>
+  
+  <!-- 金属光泽效果 -->
+  <ellipse cx="200" cy="180" rx="60" ry="30" fill="url(#metalShine2)"/>
+  
+  <!-- 文字 -->
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#9D2933" text-anchor="middle">Au-Alloy</text>
+  
+  <!-- 产品标签 -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" stroke="#9D2933" stroke-width="1">黄金合金</text>
+  <text x="200" y="355" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" opacity="0.9">产品2</text>
+  
+  <!-- 底部高光 -->
+  <ellipse cx="200" cy="380" rx="60" ry="8" fill="white" opacity="0.2"/>
+</svg>
